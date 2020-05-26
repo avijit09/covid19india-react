@@ -10,7 +10,7 @@ if (typeof importScripts === 'function') {
     /* injection point for manifest files.  */
     workbox.precaching.precacheAndRoute(self.__WB_MANIFEST);
 
-    /* custom cache rules */
+    /* custom cache rules- Comments added by Avijit */
     workbox.routing.registerRoute(
       new workbox.routing.NavigationRoute(
         new workbox.strategies.NetworkFirst({

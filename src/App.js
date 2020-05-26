@@ -12,7 +12,7 @@ import {
 } from 'react-router-dom';
 import {useLocalStorage, useEffectOnce} from 'react-use';
 import './App.scss';
-
+/*this is a comment by Avijit*/
 const Home = lazy(() =>
   import('./components/home' /* webpackChunkName: "Home" */)
 );

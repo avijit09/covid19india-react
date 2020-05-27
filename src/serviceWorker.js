@@ -53,7 +53,7 @@ export function register(config) {
     });
   }
 }
-
+/*New Function for congif the register*/
 function registerValidSW(swUrl, config) {
   navigator.serviceWorker
     .register(swUrl)
